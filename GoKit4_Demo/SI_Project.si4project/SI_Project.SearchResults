@@ -1,0 +1,7 @@
+---- SIG_IMM_REPORT Matches (6 in 3 files) ----
+userHandle in gizwits_product.c (Gizwits) line 174 : 		//gizSendQueue(SIG_IMM_REPORT); /* 同步信息到云端 */
+gizwitsTask in gizwits_protocol.c (Gizwits) line 513 :                 case SIG_IMM_REPORT:
+gizwitsTask in gizwits_protocol.c (Gizwits) line 514 :                     gizLog(LOG_INFO,"[SIG] :SIG_IMM_REPORT \n");
+sensorUpdateHandle in gizwits_protocol.c (Gizwits) line 596 : 	gizSendQueue(SIG_IMM_REPORT); 
+gizTimerFunc in gizwits_protocol.c (Gizwits) line 632 :             gizSendQueue(SIG_IMM_REPORT); 
+gizwits_protocol.h (Gizwits) line 65 : #define SIG_IMM_REPORT                0x03          ///< The agreement immediately reports the task
