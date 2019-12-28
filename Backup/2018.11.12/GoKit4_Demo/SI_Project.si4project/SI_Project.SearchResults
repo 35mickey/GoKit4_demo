@@ -1,3 +1,0 @@
----- TASK_COMM Matches (2 in 1 files) ----
-gizwitsTask in gizwits_protocol.c (Gizwits) :     TASK_COMM gizTaskComm;
-gizSendQueue in gizwits_protocol.c (Gizwits) :     TASK_COMM taskComm;
